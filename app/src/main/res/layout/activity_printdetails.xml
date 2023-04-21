@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Purple3"
+    tools:context=".printdetails">
+
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/profilephto"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD PROFILE PHOTO"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:background="@color/Purple2"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/txtname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:background="@color/Purple"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:id="@+id/txtemail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Number"
+        android:background="@color/Purple2"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtmobilenumber"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adrees"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:background="@color/Purple"
+        android:layout_gravity="center"
+        android:id="@+id/txtadrees"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Date of Birth"
+        android:background="@color/Purple2"
+
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/txtbirth"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Hobby"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="@color/Purple"
+        android:id="@+id/txtHobby"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="study"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:textSize="@dimen/_20ssp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="@color/Purple"
+        android:id="@+id/txtstudy"/>
+
+
+
+
+
+
+</LinearLayout>
